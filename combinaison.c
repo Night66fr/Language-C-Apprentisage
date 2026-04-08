@@ -9,8 +9,9 @@ void compteur() {
         nombre_dizaine = i;
         for (j=0;j<=9; j++) {
             nombre_unite = j;
-            printf("%d%d", nombre_dizaine, nombre_unite);
-            printf("\n");
+            putchar(nombre_dizaine + '0');
+            putchar(nombre_unite + '0');
+            putchar('\n');
         }        
     }    
 }
